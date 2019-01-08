@@ -76,5 +76,5 @@ def get_patient_history(channel, method, properties, body):
 '''
 
 if __name__ == '__main__':
-    #connect() is commented again
+    #connect() is commented again and again
     app.run(debug=True)
