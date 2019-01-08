@@ -3,8 +3,8 @@ import os
 from flask_sqlalchemy import SQLAlchemy
 import datetime
 import json
-import pika
-from pika.adapters.blocking_connection import BlockingConnection
+#import pika
+#from pika.adapters.blocking_connection import BlockingConnection
 
 message = None
 
