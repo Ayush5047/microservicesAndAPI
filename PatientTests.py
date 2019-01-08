@@ -1,14 +1,11 @@
 import json
-import pika
-from pika.adapters.blocking_connection import BlockingConnection
+#import pika
+#from pika.adapters.blocking_connection import BlockingConnection
 import sqlite3
 from flask import Flask, session, redirect, url_for, escape, request
 import os 
 from flask_sqlalchemy import SQLAlchemy
 import datetime
-import json
-import pika
-from pika.adapters.blocking_connection import BlockingConnection
 
 app = Flask(__name__)
 
